@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>关于我 - 分界面</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; margin-top: 50px; line-height: 1.6; background-color: #fafafa; }
+        h1 { color: #2c3e50; }
+        .content { max-width: 600px; margin: 0 auto; text-align: left; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .back-btn { margin-top: 30px; display: inline-block; padding: 10px 20px; background-color: #333; color: white; text-decoration: none; border-radius: 5px; }
+        .back-btn:hover { background-color: #555; }
+    </style>
+</head>
+<body>
+    <h1>关于我 / 个人简介</h1>
+    
+    <div class="content">
+        <p>这里是我的第二个页面！</p>
+        <p>你可以在这里写写你的爱好、正在做的项目，或者干脆放一张你的照片。</p>
+        <p>既然能跳转过来，说明你的 GitHub Pages 路由已经跑通了。🎉</p>
+    </div>
+
+    <a href="index.html" class="back-btn">← 返回主页</a>
+</body>
+</html>
